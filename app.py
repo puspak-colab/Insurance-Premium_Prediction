@@ -9,6 +9,7 @@ Created on Sun Sep 12 10:24:16 2021
 from flask import Flask, render_template, request
 import pickle
 import numpy as np
+from wsgiref import simple_server
 
 # Load the Random Forest CLassifier model
 filename = 'insurance_premium_model.pkl'
@@ -57,4 +58,7 @@ def predict():
         return render_template('result.html', prediction="Your Insurance Premium should be near about:"+" "+"$"+str(np.round(pred,2)))
 
 if __name__ == '__main__':
-	app.run(debug=True)
+	port = int(os.getenv("PORT"))
+   	host = '0.0.0.0'
+    	httpd = simple_server.make_server(host=host,port=port, app=app)
+    	httpd.serve_forever()
