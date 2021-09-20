@@ -11,7 +11,7 @@ import pickle
 import numpy as np
 from wsgiref import simple_server
 
-# Load the Random Forest CLassifier model
+
 filename = 'insurance_premium_model.pkl'
 regressor = pickle.load(open(filename, 'rb'))
 
