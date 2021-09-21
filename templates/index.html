@@ -7,11 +7,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     </head>
 
-    <body>
+    <body  background="https://uconn-today-universityofconn.netdna-ssl.com/wp-content/uploads/2017/04/shutterstock_373492012-health-insurance-e1491415000969.jpg">
         <!-- Website Title -->
     	<div class="container">
     	<center>
-            <h1 class='container-heading'><span class="heading_font"><span style="color:white"><span style="background-color:indigo"><em><i>Insurance Premium Calculator</i></em></span></span></span></h1>
+            <h1 class='container-heading'><span class="heading_font"><span style="color:red"><span style="background-color:green"><em><i>Insurance Premium Calculator</i></em></span></span></span></h1>
     	</center>
     	</div>
 
@@ -19,18 +19,18 @@
     	<div class="independent_variables">
     		<form action="{{ url_for('predict') }}" method="POST">
     		<center>
-            <h3>Your Age</h3><br><input class="form-input" type="text" name="age" placeholder="Age"><br>
-            <h3>Your Body Mass Index (kg/m²)</h3><br><input class="form-input" type="text" name="bmi" placeholder="bmi"><br>
-             <h3>Select Your Gender</h3><br><select id="sex" name="sex" placeholder="Gender">
+            <h2><span style="color:white"><em>Your Age</em></h2><br><input class="form-input" type="text" name="age" placeholder="Age"><br>
+            <h2><span style="color:white"><em>Your Body Mass Index (kg/m²)</h2><br><input class="form-input" type="text" name="bmi" placeholder="bmi"><br>
+            <h2><span style="color:white"><em>Select Your Gender</h2><br><select id="sex" name="sex" placeholder="Gender">
                  <option value="1">Male</option>
                  <option value="0">Female</option> 
              </select><br>
-             <h3>Do You Smoke?</h3><br><select id="smoker" name="smoker" placeholder="smoker">
+             <h2><span style="color:white"><em>Do You Smoke?</h2><br><select id="smoker" name="smoker" placeholder="smoker">
                  <option value="1">Yes</option>
                  <option value="0">No</option> 
             </select><br>
-            <h3>How many children do you have?</h3><br><input class="form-input" type="text" name="children" placeholder="children"><br>
-            <h3>Select a particular Region</h3><br><select id="region" name="region" placeholder="region">
+            <h2><span style="color:white"><em>How many children do you have?</h2><br><input class="form-input" type="text" name="children" placeholder="children"><br>
+            <h2><span style="color:white"><em>Select a particular Region</h2><br><select id="region" name="region" placeholder="region">
                  <option value="0">NothEast</option>
                  <option value="1">NorthWest</option>
                  <option value="2">SorthEast</option> 
@@ -41,5 +41,9 @@
              </center>	
         	</form>
     	</div>
+        <!-- Footer -->
+        <div class='footer'>
+            <p class='footer-description'>Created by: Puspak Khastagir</p>
+        </div>
     </body>
 </html>
