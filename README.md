@@ -5,4 +5,4 @@ The main objective of the project is to create a web application which takes som
 
 A glance of the web application is furnished below:
 
-![Insurance Premium Prediction](Insurance-Premium_Prediction/insurance_project.gif)
+(insurance_project.gif)
