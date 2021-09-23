@@ -5,4 +5,4 @@ The main objective of the project is to create a web application which takes som
 
 A glance of the web application is furnished below:
 
-https://github.com/puspak-colab/Insurance-Premium_Prediction/blob/59eac5c7b037f17aee7c8f3e4285f24601ca02c7/insurance_project.gif
+!(https://github.com/puspak-colab/Insurance-Premium_Prediction/blob/59eac5c7b037f17aee7c8f3e4285f24601ca02c7/insurance_project.gif)
