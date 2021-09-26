@@ -3,7 +3,7 @@ It predicts the Health Insurance Premium depending upon individual health condit
 
 The main objective of the project is to create a web application which takes some inputs from users and based on the information predicts the premium amount.
 
-Please have a look at the Heroku web application by clicking the link given below:
+Please have a look at the Heroku web application by clicking the link:
 https://insurance-premium-calculator.herokuapp.com/
 
 A glance of the web application is furnished below:
